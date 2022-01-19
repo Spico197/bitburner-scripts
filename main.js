@@ -6,7 +6,7 @@ const PROGRAMS = ["FTPCrack.exe", "BruteSSH.exe", "HTTPWorm.exe", "relaySMTP.exe
 export async function main(ns) {
 	//printMap(ns, home, nodeMap, "--")
 	let mode = ns.args[0]
-	ns.connect()
+
 	if (mode === "hackNeighbours") {
 		if (ns.args.length > 1) {
 			let startNodeName = ns.args[1]

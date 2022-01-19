@@ -4,8 +4,8 @@ This repo contains scripts that I use for entertaining in [BitBurner](https://da
 
 ## ✔️Scripts
 
-- `main.js`: main script with start entry point. Automatically hack one/all hackable nodes recursively from a starting node.
-- `hack.js`: script used in machines to hack.
+- `main.js`: main script with start entry point. Automatically hack one/all hackable nodes recursively from a starting node. 4.80 GB required.
+- `hack.js`: script used in machines to hack. 2.40 GB required.
 
 ## 🚀Usage
 
