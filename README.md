@@ -6,6 +6,7 @@ This repo contains scripts that I use for entertaining in [BitBurner](https://da
 
 - `main.js`: main script with start entry point. Automatically hack one/all hackable nodes recursively from a starting node. 4.80 GB required.
 - `hack.js`: script used in machines to hack. 2.40 GB required.
+- `findPath.js`: find path from source host to target host. 1.80GB required.
 
 ## 🚀Usage
 
@@ -14,6 +15,8 @@ This repo contains scripts that I use for entertaining in [BitBurner](https://da
 $ run main.js hackAll home
 # hack `iron-gym`
 $ run main.js hackOne iron-gym
+# find path from host to host
+$ run findPath.js home fulcrumassets
 ```
 
 ## 📖References
@@ -23,6 +26,7 @@ $ run main.js hackOne iron-gym
 
 ## ⚽Update
 
+- 2022-1-23: Add `findPath.js`
 - 2022-1-23: Fix node undefined bug in `hackOne` mode and test other modes to make sure the availablity.
 
 ## 🔒LICENSE
