@@ -12,12 +12,18 @@ This repo contains scripts that I use for entertaining in [BitBurner](https://da
 ```bash
 # hack all recursively starting from `home` node
 $ run main.js hackAll home
+# hack `iron-gym`
+$ run main.js hackOne iron-gym
 ```
 
 ## 📖References
 
 - [Official Tutorial](https://bitburner.readthedocs.io/en/latest/netscript/netscriptjs.html)
 - [Bitburner – Script that crawls the network and maps out all the hosts](https://steamlists.com/bitburner-script-that-crawls-the-network-and-maps-out-all-the-hosts/)
+
+## ⚽Update
+
+- 2022-1-23: Fix node undefined bug in `hackOne` mode and test other modes to make sure the availablity.
 
 ## 🔒LICENSE
 

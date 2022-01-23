@@ -35,7 +35,7 @@ export async function main(ns) {
 		if (ns.args.length > 1) {
 			let startNodeName = ns.args[1]
 			if (isHackable(ns, startNodeName)) {
-				await hackOne(ns, node.name)
+				await hackOne(ns, startNodeName)
 			} else {
 				let node = getHostNode(ns, startNodeName)
 				ns.tprintf(
